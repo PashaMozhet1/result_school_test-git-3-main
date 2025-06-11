@@ -76,3 +76,27 @@ c7db2e0 (HEAD -> master) init project
 
 Чтобы отправить файлы в удалённый репозиторий на GitHub, используется
 # git push [repo_link] [branch_name]
+
+Ссылку на репо можно проверить командой 
+# git remote -v
+Репозиторий этого урока у меня:
+origin https://github.com/PashaMozhet1/result_school_test-git-3-main.git
+
+В git push можно использовать либо ссылку на репозиторий, либо название (в моём случае origin).
+В этом проекте пишу:
+# git push origin master
+(пока что про название ветки не смотрю, про них в следующих уроках)(сейчас отправляю в главную ветку с названием master)
+
+После этого файлы загрузились на удалённый репо, теперь они доступны в моём профиле на сайте GitHub.
+В терминале информация о загрузке:
+
+info: please complete authentication in your browser...
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 3.32 KiB | 3.32 MiB/s, done.
+Total 11 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/PashaMozhet1/result_school_test-git-3-main.git
+ * [new branch]      master -> master
